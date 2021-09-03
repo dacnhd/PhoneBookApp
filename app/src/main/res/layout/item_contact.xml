@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -28,5 +30,28 @@
         android:text="012121212"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@id/ivAvatar"/>
+
+    <Button
+        android:id="@+id/btEdit"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvName"
+        app:icon="@drawable/img_edit"
+        app:iconSize="50dp"
+        android:paddingLeft="0dp"
+        android:background="@color/white"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btCall"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btEdit"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="0dp"
+        app:icon="@drawable/img_edit"
+        app:iconSize="50dp"
+        android:background="@color/white"
+        android:gravity="center"/>
 
 </RelativeLayout>
